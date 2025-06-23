@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "xrWuEQ5YtPTD/30nGvQgbVZ8FusCicNyFh9Mwxrwu7g=",
+  "Source": "RecipePlatform.API",
+  "BasePath": "_content/RecipePlatform.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

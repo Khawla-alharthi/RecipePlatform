@@ -1,8 +1,71 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+<link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-content">
+        <h1>Delight Your Senses <span class="brand-text">TasteBud</span></h1>
+        <p>From your kitchen to the world — one delicious recipe at a time!</p>
+        <a href="#" class="cta-button">Explore Recipes</a>
+    </div>
+    <div class="hero-image">
+        <img src="~/imgs/plate.jpg" alt="Delicious egg salad bowl" class="food-image">
+    </div>
+</section>
+
+
+<!-- Popular Categories -->
+<section class="categories">
+    <h2>Popular Categories</h2>
+    <div class="category-grid">
+        <div class="category-card">
+            <div class="category-icon">
+				<img src="~/imgs/MD.png" alt="Category Icon" class="category-image">
+            </div>
+            <h3>Main Dish</h3>
+        </div>
+        <div class="category-card">
+            <div class="category-icon">
+                <img src="~/imgs/BF.png" alt="Category Icon" class="category-image">
+            </div>
+            <h3>Break Fast</h3>
+        </div>
+        <div class="category-card">
+            <div class="category-icon">
+                <img src="~/imgs/D.png" alt="Category Icon" class="category-image">
+            </div>
+            <h3>Dessert</h3>
+        </div>
+        <div class="category-card">
+            <div class="category-icon">
+                <img src="~/imgs/J.png" alt="Category Icon" class="category-image">
+            </div>
+            <h3>Juice</h3>
+        </div>
+    </div>
+</section>
+
+
+<!-- Top Rated Recipes -->
+<section class="top-rated">
+	<h2>Top Rated Recipes</h2>
+    <div class="rated-recipe">
+
+    </div>
+</section>
+
+
+<!-- About Section -->
+<section class="about" id="about">
+    <div class="about-image-wrapper">
+        <img src="~/imgs/about.jpg" alt="Cooking preparation" class="about-image">
+    </div>
+    <div class="about-content">
+        <h2>About Us:</h2>
+        <p>At TasteBud Recipes, we believe that every recipe tells a story — of family traditions, personal creativity, and the joy of sharing a good meal. Founded by home chef and food lover Sarah Chen, our platform was born out of a simple idea: to make it easy for anyone to share, discover, and preserve the recipes they love most.</p>
+        <p>Whether it's grandma's secret cake, your go-to weeknight dinner, or a cultural dish passed down through generations, TasteBud Recipes is your digital recipe box — built for connection, inspiration, and community. We're here to bring passionate home cooks together from around the world, one delicious recipe at a time.</p>
+        <p>Join us and be part of something homemade, heartfelt, and worth passing on.</p>
+    </div>
+</section>

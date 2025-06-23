@@ -1,4 +1,4 @@
-html {
+﻿html {
   font-size: 14px;
 }
 
@@ -16,7 +16,110 @@ html {
   position: relative;
   min-height: 100%;
 }
+@font-face {
+    font-family: 'brittany';
+       src: url(../Font/brittany_signature/BrittanySignature.ttf) ;
+   );
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 
 body {
-  margin-bottom: 60px;
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #fff7ec;
+    color: #000000;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Navbar */
+.custom-navbar {
+    background-color: #fff7ec;
+    padding: 50px 20px 20px;
+    border-bottom: 2px solid #ffe790;
+}
+
+.navbar-content {
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'brittany';
+    font-size: 28px;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+    padding-top: 5px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #000000 !important;
+    font-size: 16px;
+    position: relative;
+    transition: color 0.3s;
+}
+
+    .nav-item:hover{
+        color: #f04c24 !important;
+        font-weight: bold;
+    }
+
+.auth-links {
+    font-size: 14px;
+    color: #545454 !important;
+    padding-top: 5px;
+}
+
+    .auth-links a {
+        text-decoration: none;
+        color: #545454 !important;
+        margin: 0 6px;
+        padding: 6px 12px;
+        border-radius: 4px;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+        .auth-links a:hover {
+            background-color: #f04c24;
+            color: white !important;
+        }
+
+/* Content */
+.content-body {
+    padding: 40px 0;
+}
+
+/* Footer */
+.custom-footer {
+    background-color: transparent;
+    margin-top: 60px;
+}
+
+.footer-curve {
+    background-color: #f04c24;
+    color: #fff7ec;
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 14px;
+    border-top-left-radius: 100% 50px;
+    border-top-right-radius: 100% 50px;
 }

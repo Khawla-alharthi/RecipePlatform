@@ -1,0 +1,16 @@
+C:\Users\user pc\source\repos\RecipeSharingPlatform\RecipePlatform.DAL\bin\Debug\net8.0\RecipePlatform.DAL.deps.json
+C:\Users\user pc\source\repos\RecipeSharingPlatform\RecipePlatform.DAL\bin\Debug\net8.0\RecipePlatform.DAL.dll
+C:\Users\user pc\source\repos\RecipeSharingPlatform\RecipePlatform.DAL\bin\Debug\net8.0\RecipePlatform.DAL.pdb
+C:\Users\user pc\source\repos\RecipeSharingPlatform\RecipePlatform.DAL\bin\Debug\net8.0\RecipePlatform.Models.dll
+C:\Users\user pc\source\repos\RecipeSharingPlatform\RecipePlatform.DAL\bin\Debug\net8.0\RecipePlatform.Models.pdb
+C:\Users\user pc\source\repos\RecipeSharingPlatform\RecipePlatform.DAL\obj\Debug\net8.0\RecipePlatform.DAL.csproj.AssemblyReference.cache
+C:\Users\user pc\source\repos\RecipeSharingPlatform\RecipePlatform.DAL\obj\Debug\net8.0\RecipePlatform.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user pc\source\repos\RecipeSharingPlatform\RecipePlatform.DAL\obj\Debug\net8.0\RecipePlatform.DAL.AssemblyInfoInputs.cache
+C:\Users\user pc\source\repos\RecipeSharingPlatform\RecipePlatform.DAL\obj\Debug\net8.0\RecipePlatform.DAL.AssemblyInfo.cs
+C:\Users\user pc\source\repos\RecipeSharingPlatform\RecipePlatform.DAL\obj\Debug\net8.0\RecipePlatform.DAL.csproj.CoreCompileInputs.cache
+C:\Users\user pc\source\repos\RecipeSharingPlatform\RecipePlatform.DAL\obj\Debug\net8.0\RecipePlatform.DAL.sourcelink.json
+C:\Users\user pc\source\repos\RecipeSharingPlatform\RecipePlatform.DAL\obj\Debug\net8.0\RecipePl.07BB1D3C.Up2Date
+C:\Users\user pc\source\repos\RecipeSharingPlatform\RecipePlatform.DAL\obj\Debug\net8.0\RecipePlatform.DAL.dll
+C:\Users\user pc\source\repos\RecipeSharingPlatform\RecipePlatform.DAL\obj\Debug\net8.0\refint\RecipePlatform.DAL.dll
+C:\Users\user pc\source\repos\RecipeSharingPlatform\RecipePlatform.DAL\obj\Debug\net8.0\RecipePlatform.DAL.pdb
+C:\Users\user pc\source\repos\RecipeSharingPlatform\RecipePlatform.DAL\obj\Debug\net8.0\ref\RecipePlatform.DAL.dll

@@ -1,0 +1,255 @@
+﻿@font-face {
+    font-family: 'brittany';
+    src: url(../Font/brittany_signature/BrittanySignature.ttf);
+}
+
+/* Hero Section */
+.hero {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 4rem 2rem;
+    gap: 3rem;
+    position: relative;
+    background-color: #fff7ec;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+.hero-content .brand-text {
+    font-family: 'brittany';
+    font-style: italic;
+    color: #000000;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    color: #000000;
+    margin-bottom: 2rem;
+}
+
+.cta-button {
+    background: #f04c24;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-decoration: none;
+    display: inline-block;
+}
+
+    .cta-button:hover {
+        background: #d53f1b;
+        color: white;
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(240, 76, 36, 0.3);
+    }
+
+.hero-image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
+
+    .hero-image::before {
+        content: '';
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        background: #ffe790;
+        border-radius: 50%;
+        top: -50px;
+        right: -50px;
+        z-index: -1;
+    }
+
+    .hero-image::after {
+        content: '';
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        background: #ffe790;
+        border-radius: 50%;
+        bottom: -30px;
+        left: 10px;
+        z-index: -1;
+    }
+
+.food-image {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    position: relative; 
+    z-index: 1;
+}
+
+/* Popular Categories */
+.categories {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: #fff7ec;
+}
+
+    .categories h2 {
+        font-size: 2.5rem;
+        color: #000000;
+        margin-bottom: 3rem;
+    }
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+}
+
+.category-card {
+    position: relative;
+    background: #ffe790;
+    padding: 2rem;
+    border-radius: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+    .category-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .category-card::before,
+    .category-card::after {
+        content: "";
+        position: absolute;
+        background-color: #ffe790;
+        border-radius: 50%;
+        z-index: 0;
+    }
+
+    .category-card::before {
+        width: 60px;
+        height: 60px;
+        top: -20px;
+        left: -20px;
+    }
+
+    .category-card::after {
+        width: 40px;
+        height: 40px;
+        bottom: -15px;
+        right: -15px;
+    }
+
+    .category-icon,
+    .category-card h3 {
+        position: relative;
+        z-index: 1;
+    }
+
+.category-icon {
+    margin-bottom: 1rem;
+}
+
+.category-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+/*    border: 2px solid #fff7ec;*/
+}
+
+.category-card h3 {
+    font-size: 1.2rem;
+    color: #64044b;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+/* Top Rated Recipes */
+.top-rated {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: #fff7ec;
+}
+
+    .top-rated h2 {
+        font-size: 2.5rem;
+        color: #000000;
+        margin-bottom: 3rem;
+    }
+
+/* About Section*/
+.about {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.about-image-wrapper {
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.about-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.about-image-wrapper::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 9px solid #ff6b47;
+    border-radius: 20px;
+    top: 25px;
+    left: -25px;
+    z-index: 1;
+}
+
+.about-content h2 {
+    font-size: 2.5rem;
+    color: #000000;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+.about-content p {
+    color: #666;
+    margin-bottom: 1rem;
+    line-height: 1.8;
+}
+
+    .about-content p:last-child {
+        margin-bottom: 0;
+    }
