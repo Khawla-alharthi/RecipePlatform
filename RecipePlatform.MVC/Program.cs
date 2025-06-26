@@ -33,6 +33,7 @@ namespace RecipePlatform.MVC
                 // User settings
                 options.User.RequireUniqueEmail = true;
             })
+                .AddRoles<IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
 
@@ -42,7 +43,6 @@ namespace RecipePlatform.MVC
             builder.Services.AddScoped<IRatingService, RatingService>();
             builder.Services.AddScoped<IAdminService, AdminService>();
             //-------------------------------------------------------------
-
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
@@ -62,6 +62,7 @@ namespace RecipePlatform.MVC
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllerRoute(

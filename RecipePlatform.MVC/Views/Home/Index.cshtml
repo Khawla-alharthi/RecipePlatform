@@ -1,20 +1,23 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+
 <link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
 
 <!-- Hero Section -->
 <section class="hero">
     <div class="hero-content">
-        <h1>Delight Your Senses <span class="brand-text">TasteBud</span></h1>
+        <h1>
+            Delight Your Senses
+            <span class="brand-text">TasteBud</span>
+        </h1>
         <p>From your kitchen to the world — one delicious recipe at a time!</p>
-        <a href="#" class="cta-button">Explore Recipes</a>
+        <a href="@Url.Action("Index", "Recipe")" class="cta-button">Explore Recipes</a>
     </div>
     <div class="hero-image">
-        <img src="~/imgs/plate.jpg" alt="Delicious egg salad bowl" class="food-image">
+        <img src="~/imgs/plate.jpg" alt="Delicious Food" class="food-image" />
     </div>
 </section>
-
 
 <!-- Popular Categories -->
 <section class="categories">
@@ -22,45 +25,75 @@
     <div class="category-grid">
         <div class="category-card">
             <div class="category-icon">
-				<img src="~/imgs/MD.png" alt="Category Icon" class="category-image">
+                <img src="~/imgs/MD.png" alt="Main Dish" class="category-image" />
             </div>
             <h3>Main Dish</h3>
         </div>
         <div class="category-card">
             <div class="category-icon">
-                <img src="~/imgs/BF.png" alt="Category Icon" class="category-image">
+                <img src="~/imgs/BF.png" alt="Breakfast" class="category-image" />
             </div>
             <h3>Break Fast</h3>
         </div>
         <div class="category-card">
             <div class="category-icon">
-                <img src="~/imgs/D.png" alt="Category Icon" class="category-image">
+                <img src="~/imgs/D.png" alt="Dessert" class="category-image" />
             </div>
             <h3>Dessert</h3>
         </div>
         <div class="category-card">
             <div class="category-icon">
-                <img src="~/imgs/J.png" alt="Category Icon" class="category-image">
+                <img src="~/imgs/J.png" alt="Juice" class="category-image" />
             </div>
             <h3>Juice</h3>
         </div>
     </div>
 </section>
 
-
 <!-- Top Rated Recipes -->
 <section class="top-rated">
-	<h2>Top Rated Recipes</h2>
-    <div class="rated-recipe">
-
+    <h2>Top Rated Recipes</h2>
+    <div class="recipe-grid">
+        <!-- Recipe cards will be populated here -->
+        <div class="recipe-card">
+            <img src="~/images/recipe1.jpg" alt="Recipe" class="recipe-image" />
+            <div class="recipe-info">
+                <div class="rating">⭐⭐⭐⭐⭐</div>
+                <h4>food name</h4>
+                <p>food category</p>
+            </div>
+        </div>
+        <div class="recipe-card">
+            <img src="~/images/recipe2.jpg" alt="Recipe" class="recipe-image" />
+            <div class="recipe-info">
+                <div class="rating">⭐⭐⭐⭐⭐</div>
+                <h4>food name</h4>
+                <p>food category</p>
+            </div>
+        </div>
+        <div class="recipe-card">
+            <img src="~/images/recipe3.jpg" alt="Recipe" class="recipe-image" />
+            <div class="recipe-info">
+                <div class="rating">⭐⭐⭐⭐⭐</div>
+                <h4>food name</h4>
+                <p>food category</p>
+            </div>
+        </div>
+        <div class="recipe-card">
+            <img src="~/images/recipe4.jpg" alt="Recipe" class="recipe-image" />
+            <div class="recipe-info">
+                <div class="rating">⭐⭐⭐⭐⭐</div>
+                <h4>food name</h4>
+                <p>food category</p>
+            </div>
+        </div>
     </div>
 </section>
 
-
 <!-- About Section -->
-<section class="about" id="about">
+<section class="about">
     <div class="about-image-wrapper">
-        <img src="~/imgs/about.jpg" alt="Cooking preparation" class="about-image">
+        <img src="~/imgs/about.jpg" alt="About Us" class="about-image" />
     </div>
     <div class="about-content">
         <h2>About Us:</h2>
@@ -69,3 +102,4 @@
         <p>Join us and be part of something homemade, heartfelt, and worth passing on.</p>
     </div>
 </section>
+

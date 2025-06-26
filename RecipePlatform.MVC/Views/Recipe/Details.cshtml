@@ -1,0 +1,175 @@
+﻿@model RecipePlatform.Models.Models.Recipe
+@using Microsoft.AspNetCore.Identity
+@using RecipePlatform.Models.Models
+@inject SignInManager<ApplicationUser> SignInManager
+
+@{
+    ViewData["Title"] = "Recipe Details";
+}
+
+<h1>Recipe Details</h1>
+
+<div>
+    <h4>@Html.DisplayFor(model => model.Title)</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Ingredients)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Ingredients)
+        </dd>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Instructions)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Instructions)
+        </dd>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PrepTimeMinutes)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PrepTimeMinutes) minutes
+        </dd>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CookTimeMinutes)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CookTimeMinutes) minutes
+        </dd>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Servings)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Servings)
+        </dd>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Difficulty)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Difficulty)
+        </dd>
+
+        <dt class="col-sm-2">
+            Category
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Category.Name)
+        </dd>
+
+        <dt class="col-sm-2">
+            Created By
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.User.UserName) @* Assuming User has a UserName property *@
+        </dd>
+
+        <dt class="col-sm-2">
+            Created Date
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CreatedDate)
+        </dd>
+
+        <dt class="col-sm-2">
+            Last Modified
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ModifiedDate)
+        </dd>
+
+        <dt class="col-sm-2">
+            Average Rating
+        </dt>
+        <dd class="col-sm-10">
+            @if (Model.Ratings != null && Model.Ratings.Any())
+            {
+                <span>
+                    Average: @Model.Ratings.Average(r => r.Stars).ToString("F1")
+                    (based on @Model.Ratings.Count ratings)
+                </span>
+            }
+            else
+            {
+                <span>No ratings yet</span>
+            }
+        </dd>
+    </dl>
+</div>
+
+@if (SignInManager.IsSignedIn(User))
+{
+    <div class="mt-3">
+        <h3>Submit Your Rating</h3>
+        <form asp-controller="Rating" asp-action="Create" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" name="RecipeId" value="@Model.Id" />
+            <div class="form-group">
+                <label for="Stars" class="control-label">Stars (1-5)</label>
+                <select name="Stars" class="form-control">
+                    <option value="1">1 Star</option>
+                    <option value="2">2 Stars</option>
+                    <option value="3">3 Stars</option>
+                    <option value="4">4 Stars</option>
+                    <option value="5">5 Stars</option>
+                </select>
+                <span class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label for="Comment" class="control-label">Comment (Optional)</label>
+                <textarea name="Comment" class="form-control"></textarea>
+                <span class="text-danger"></span>
+            </div>
+            <div class="form-group mt-2">
+                <input type="submit" value="Submit Rating" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+}
+
+<div class="mt-4">
+    <h3>User Reviews</h3>
+    @if (Model.Ratings != null && Model.Ratings.Any())
+    {
+        <ul class="list-group">
+            @foreach (var rating in Model.Ratings.OrderByDescending(r => r.Id))
+            {
+                <li class="list-group-item mb-2">
+                    <strong>@rating.Stars Stars</strong> by @rating.User.UserName
+                    @if (!string.IsNullOrEmpty(rating.Feedback))
+                    {
+                        <p class="mb-0">"@rating.Feedback"</p>
+                    }
+                    <small class="text-muted">@rating.Id</small> @* You might want to display a timestamp instead of Id here, if available in your Rating model *@
+                </li>
+            }
+        </ul>
+    }
+    else
+    {
+        <p>No reviews yet. Be the first to rate this recipe!</p>
+    }
+</div>
+
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

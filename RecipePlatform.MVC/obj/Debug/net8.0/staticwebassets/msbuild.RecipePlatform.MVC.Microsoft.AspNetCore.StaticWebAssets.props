@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>rpq7mkqqra</Fingerprint>
-      <Integrity>AbcEi4ZzvO+HXJ8mkAgccd6NwYKb49vR7x46ko18VqE=</Integrity>
+      <Fingerprint>4njx97qjnw</Fingerprint>
+      <Integrity>sGaGohCjOzJFGvJ8Sl9TQB9xNIHR0DNzuqXQ6fe8DPE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\home.css'))</OriginalItemSpec>
@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>tqcok0m5kd</Fingerprint>
-      <Integrity>hYo8HT7QRKB9Uhg6aHmgP8hpgcsAce9E013uXooJ0y4=</Integrity>
+      <Fingerprint>yvs560fqlz</Fingerprint>
+      <Integrity>gqg82zwwtx+4r7yc6R1DseYOUZP+PARBgtnSrrshs7M=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
@@ -102,8 +102,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>0i3jqlo9jw</Fingerprint>
-      <Integrity>iNl7BRiLVNbKLJ6GPa8EPPbW6rdTElBA47zegzDOmA4=</Integrity>
+      <Fingerprint>o2xfnzc028</Fingerprint>
+      <Integrity>0AecS/jAySf/k4GEItM+1hJiBSjFP4JFaSDTowpFIq8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Font\brittany_signature\Readme.txt'))</OriginalItemSpec>

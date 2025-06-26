@@ -1,0 +1,152 @@
+﻿@model IEnumerable<RecipePlatform.Models.Models.Recipe>
+
+@{
+    ViewData["Title"] = "Recipes";
+}
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h1 class="display-4">All Recipes</h1>
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <a asp-action="Create" class="btn btn-primary btn-lg">
+                        <i class="fas fa-plus"></i> Add New Recipe
+                    </a>
+                }
+            </div>
+
+            <!-- Search and Filter Section -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <form method="get" asp-action="Index">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <input type="text" name="searchTerm" class="form-control" placeholder="Search recipes..." value="@ViewBag.SearchTerm" />
+                            </div>
+                            <div class="col-md-3">
+                                <select name="categoryId" class="form-control">
+                                    <option value="">All Categories</option>
+                                    @foreach (var category in ViewBag.Categories as IEnumerable<RecipePlatform.Models.Models.Category>)
+                                    {
+                                        <option value="@category.Id" selected="@(ViewBag.CategoryId == category.Id.ToString())">@category.Name</option>
+                                    }
+                                </select>
+                            </div>
+                            <div class="col-md-3">
+                                <select name="difficulty" class="form-control">
+                                    <option value="">All Difficulties</option>
+                                    <option value="Easy" selected="@(ViewBag.Difficulty == "Easy")">Easy</option>
+                                    <option value="Medium" selected="@(ViewBag.Difficulty == "Medium")">Medium</option>
+                                    <option value="Hard" selected="@(ViewBag.Difficulty == "Hard")">Hard</option>
+                                </select>
+                            </div>
+                            <div class="col-md-2">
+                                <button type="submit" class="btn btn-outline-primary w-100">
+                                    <i class="fas fa-search"></i> Search
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Recipes Grid -->
+            @if (Model.Any())
+            {
+                <div class="row">
+                    @foreach (var recipe in Model)
+                    {
+                        <div class="col-md-4 mb-4">
+                            <div class="card recipe-card h-100">
+                                <div class="card-img-top recipe-image-placeholder">
+                                    <i class="fas fa-utensils"></i>
+                                </div>
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">@recipe.Title</h5>
+                                    <p class="card-text text-muted">@recipe.Description</p>
+                                    <div class="recipe-meta mb-3">
+                                        <small class="text-muted">
+                                            <i class="fas fa-clock"></i> @(recipe.PrepTimeMinutes + recipe.CookTimeMinutes) min
+                                            <i class="fas fa-users ml-2"></i> @recipe.Servings servings
+                                            <span class="badge badge-@(recipe.Difficulty.ToString().ToLower() == "easy" ? "success" : recipe.Difficulty.ToString().ToLower() == "medium" ? "warning" : "danger") ml-2">
+                                                @recipe.Difficulty
+                                            </span>
+                                        </small>
+                                    </div>
+                                    <div class="recipe-rating mb-3">
+                                        @if (recipe.AverageRating.HasValue)
+                                        {
+                                            <div class="stars">
+                                                @for (int i = 1; i <= 5; i++)
+                                                {
+                                                    <i class="fas fa-star @(i <= recipe.AverageRating ? "text-warning" : "text-muted")"></i>
+                                                }
+                                                <span class="ml-2">(@recipe.Ratings.Count() reviews)</span>
+                                            </div>
+                                        }
+                                        else
+                                        {
+                                            <span class="text-muted">No ratings yet</span>
+                                        }
+                                    </div>
+                                    <div class="mt-auto">
+                                        <a asp-action="Details" asp-route-id="@recipe.Id" class="btn btn-primary btn-block">
+                                            View Recipe
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            }
+            else
+            {
+                <div class="text-center py-5">
+                    <i class="fas fa-search fa-3x text-muted mb-3"></i>
+                    <h3>No recipes found</h3>
+                    <p class="text-muted">Try adjusting your search criteria or browse all recipes.</p>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <a asp-action="Create" class="btn btn-primary">Add the First Recipe</a>
+                    }
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<style>
+    .recipe-card {
+        transition: transform 0.2s;
+        border: none;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+        .recipe-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+        }
+
+    .recipe-image-placeholder {
+        height: 200px;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 3rem;
+    }
+
+    .recipe-meta {
+        border-top: 1px solid #eee;
+        padding-top: 10px;
+    }
+
+    .stars i {
+        font-size: 0.9rem;
+    }
+</style>
+

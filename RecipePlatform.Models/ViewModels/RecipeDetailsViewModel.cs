@@ -7,7 +7,7 @@ using RecipePlatform.Models.Models;
 
 namespace RecipePlatform.Models.ViewModels
 {
-    internal class RecipeDetailsViewModel
+    public class RecipeDetailsViewModel
     {
         public Recipe Recipe { get; set; }
         public bool CanEdit { get; set; }

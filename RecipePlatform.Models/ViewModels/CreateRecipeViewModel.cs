@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Web.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using RecipePlatform.Models.Models.Enums;
 
 namespace RecipePlatform.Models.ViewModels
@@ -41,8 +41,7 @@ namespace RecipePlatform.Models.ViewModels
         public DifficultyLevel Difficulty { get; set; }
 
         [Required]
-        public int CategoryId { get; set; }
-
+        public int CategoryId { get; set; } 
         public List<SelectListItem> Categories { get; set; } = new List<SelectListItem>();
     }
 }

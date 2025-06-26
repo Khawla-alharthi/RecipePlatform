@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RecipePlatform.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+52ea87f9bfb16df9babcfb9c6edaec84d274d667")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2521aae0655313913b0064b6abf387cf77b6d4cd")]
 [assembly: System.Reflection.AssemblyProductAttribute("RecipePlatform.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RecipePlatform.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

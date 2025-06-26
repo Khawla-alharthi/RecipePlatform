@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using RecipePlatform.Models.Models.Enums;
 using RecipePlatform.Models.Models;
-using System.Web.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace RecipePlatform.Models.ViewModels
 {

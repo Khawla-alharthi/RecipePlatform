@@ -10,7 +10,7 @@ namespace RecipePlatform.BLL.Interfaces
 {
     public interface IRecipeService
     {
-        Task<IEnumerable<Recipe>> GetAllRecipes();
+        Task<IEnumerable<Recipe>> GetAllRecipes(int? categoryId = null); 
         Task<Recipe> GetRecipeById(int id);
         Task<Recipe> CreateRecipe(Recipe recipe);
         Task<Recipe> UpdateRecipe(Recipe recipe);
@@ -21,3 +21,5 @@ namespace RecipePlatform.BLL.Interfaces
         Task UpdateRecipeRating(int recipeId);
     }
 }
+
+

@@ -1,43 +1,95 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Identity
+@using RecipePlatform.Models.Models
+@inject SignInManager<ApplicationUser> SignInManager
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - RecipePlatform.MVC</title>
+    <title>@ViewData["Title"] - TasteBud</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/RecipePlatform.MVC.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
 </head>
 <body>
-    <header>
-       <div class="container navbar-content">
-            <a class="logo" asp-area="" asp-controller="Home" asp-action="Index">TasteBud</a>
+    <header class="custom-navbar">
+        <div class="container">
+            <div class="navbar-content">
+                <a class="logo" asp-area="" asp-controller="Home" asp-action="Index">TasteBud</a>
 
-            <nav class="nav-links">
-                <a class="nav-item @(ViewContext.RouteData.Values["action"]?.ToString() == "Index" ? "active" : "")"
-                   asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                <a class="nav-item" href="#about">About</a>
-                <a class="nav-item @(ViewContext.RouteData.Values["action"]?.ToString() == "Recipes" ? "active" : "")"
-                   asp-area="" asp-controller="Recipes" asp-action="Index">Recipes</a>
-            </nav>
+                <nav class="nav-links">
+                    <a class="nav-item @(ViewContext.RouteData.Values["action"]?.ToString() == "Index" && ViewContext.RouteData.Values["controller"]?.ToString() == "Home" ? "active" : "")"
+                       asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                    <a class="nav-item @(ViewContext.RouteData.Values["controller"]?.ToString() == "Recipe" ? "active" : "")"
+                       asp-area="" asp-controller="Recipe" asp-action="Index">Recipes</a>
+                    @if (SignInManager.IsSignedIn(User))
+                    {
+                        <a class="nav-item" asp-area="" asp-controller="Recipe" asp-action="UserRecipes">My Recipes</a>
+                        <a class="nav-item" asp-area="" asp-controller="Recipe" asp-action="Create">Create Recipe</a>
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <a class="nav-item" asp-area="" asp-controller="Admin" asp-action="Users">Admin</a>
+                        }
+                    }
+                </nav>
 
-            <div class="auth-links">
-                <a href="#">Sign up</a> | <a href="#">Sign In</a>
+                <div class="auth-links">
+                    @if (SignInManager.IsSignedIn(User))
+                    {
+                        <span class="text-muted">Welcome, @User.Identity.Name!</span>
+                        <form asp-area="" asp-controller="Account" asp-action="Logout" method="post" class="d-inline">
+                            <button type="submit" class="btn btn-outline-primary btn-sm">
+                                <i class="fas fa-sign-out-alt"></i> Logout
+                            </button>
+                        </form>
+                    }
+                    else
+                    {
+                        <a class="btn btn-outline-primary btn-sm" asp-area="" asp-controller="Account" asp-action="Login">
+                            <i class="fas fa-sign-in-alt"></i> Sign In
+                        </a>
+                        <a class="btn btn-primary btn-sm" asp-area="" asp-controller="Account" asp-action="Register">
+                            <i class="fas fa-user-plus"></i> Sign Up
+                        </a>
+                    }
+                </div>
             </div>
         </div>
     </header>
 
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+    <main class="content-body">
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="container">
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    @TempData["SuccessMessage"]
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            </div>
+        }
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="container">
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    @TempData["ErrorMessage"]
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            </div>
+        }
+
+        @RenderBody()
+    </main>
 
     <footer class="custom-footer">
         <div class="footer-curve">
-            &copy; 2025 - TasteBud
+            <div class="container">
+                <p class="mb-0">&copy; 2025 TasteBud - Delight Your Senses, One Recipe at a Time!</p>
+            </div>
         </div>
     </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

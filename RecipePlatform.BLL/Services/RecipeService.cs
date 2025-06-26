@@ -25,13 +25,20 @@ namespace RecipePlatform.BLL.Services
             _context = context;
         }
 
-        public async Task<IEnumerable<Recipe>> GetAllRecipes()
+        public async Task<IEnumerable<Recipe>> GetAllRecipes(int? categoryId = null)
         {
-            return await _recipeRepository.GetQueryable()
+            var query = _recipeRepository.GetQueryable()
             .Include(r => r.User)
             .Include(r => r.Category)
             .OrderByDescending(r => r.CreatedDate)
-            .ToListAsync();
+            .AsQueryable();
+
+            if (categoryId.HasValue)
+            {
+                query = query.Where(r => r.CategoryId == categoryId.Value);
+            }
+
+            return await query.ToListAsync();
         }
 
         public async Task<Recipe> GetRecipeById(int id)
@@ -40,6 +47,7 @@ namespace RecipePlatform.BLL.Services
                 .Include(r => r.User)
                 .Include(r => r.Category)
                 .Include(r => r.Ratings)
+                    .ThenInclude(rating => rating.User)
                 .FirstOrDefaultAsync(r => r.Id == id);
         }
 
@@ -137,3 +145,5 @@ namespace RecipePlatform.BLL.Services
         }
     }
 }
+
+
