@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2090BCEB-F6C3-4453-A8BF-E196D815CF44}|RecipePlatform.API\\RecipePlatform.API.csproj|c:\\users\\user pc\\source\\repos\\recipesharingplatform\\recipeplatform.api\\recipeplatform.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2090BCEB-F6C3-4453-A8BF-E196D815CF44}|RecipePlatform.API\\RecipePlatform.API.csproj|solutionrelative:recipeplatform.api\\recipeplatform.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2090BCEB-F6C3-4453-A8BF-E196D815CF44}|RecipePlatform.API\\RecipePlatform.API.csproj|c:\\users\\user pc\\source\\repos\\recipesharingplatform\\recipeplatform.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2090BCEB-F6C3-4453-A8BF-E196D815CF44}|RecipePlatform.API\\RecipePlatform.API.csproj|solutionrelative:recipeplatform.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2090BCEB-F6C3-4453-A8BF-E196D815CF44}|RecipePlatform.API\\RecipePlatform.API.csproj|c:\\users\\user pc\\source\\repos\\recipesharingplatform\\recipeplatform.api\\controllers\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2090BCEB-F6C3-4453-A8BF-E196D815CF44}|RecipePlatform.API\\RecipePlatform.API.csproj|solutionrelative:recipeplatform.api\\controllers\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2090BCEB-F6C3-4453-A8BF-E196D815CF44}|RecipePlatform.API\\RecipePlatform.API.csproj|c:\\users\\user pc\\source\\repos\\recipesharingplatform\\recipeplatform.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2090BCEB-F6C3-4453-A8BF-E196D815CF44}|RecipePlatform.API\\RecipePlatform.API.csproj|solutionrelative:recipeplatform.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2090BCEB-F6C3-4453-A8BF-E196D815CF44}|RecipePlatform.API\\RecipePlatform.API.csproj|c:\\users\\user pc\\source\\repos\\recipesharingplatform\\recipeplatform.api\\controllers\\ratingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2090BCEB-F6C3-4453-A8BF-E196D815CF44}|RecipePlatform.API\\RecipePlatform.API.csproj|solutionrelative:recipeplatform.api\\controllers\\ratingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2090BCEB-F6C3-4453-A8BF-E196D815CF44}|RecipePlatform.API\\RecipePlatform.API.csproj|c:\\users\\user pc\\source\\repos\\recipesharingplatform\\recipeplatform.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2090BCEB-F6C3-4453-A8BF-E196D815CF44}|RecipePlatform.API\\RecipePlatform.API.csproj|solutionrelative:recipeplatform.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2090BCEB-F6C3-4453-A8BF-E196D815CF44}|RecipePlatform.API\\RecipePlatform.API.csproj|c:\\users\\user pc\\source\\repos\\recipesharingplatform\\recipeplatform.api\\controllers\\recipescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2090BCEB-F6C3-4453-A8BF-E196D815CF44}|RecipePlatform.API\\RecipePlatform.API.csproj|solutionrelative:recipeplatform.api\\controllers\\recipescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9FF3A3CD-F16F-491A-962E-3866402149AA}|RecipePlatform.MVC\\RecipePlatform.MVC.csproj|c:\\users\\user pc\\source\\repos\\recipesharingplatform\\recipeplatform.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9FF3A3CD-F16F-491A-962E-3866402149AA}|RecipePlatform.MVC\\RecipePlatform.MVC.csproj|solutionrelative:recipeplatform.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FF3A3CD-F16F-491A-962E-3866402149AA}|RecipePlatform.MVC\\RecipePlatform.MVC.csproj|c:\\users\\user pc\\source\\repos\\recipesharingplatform\\recipeplatform.mvc\\views\\recipe\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FF3A3CD-F16F-491A-962E-3866402149AA}|RecipePlatform.MVC\\RecipePlatform.MVC.csproj|solutionrelative:recipeplatform.mvc\\views\\recipe\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FF3A3CD-F16F-491A-962E-3866402149AA}|RecipePlatform.MVC\\RecipePlatform.MVC.csproj|c:\\users\\user pc\\source\\repos\\recipesharingplatform\\recipeplatform.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -13,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9FF3A3CD-F16F-491A-962E-3866402149AA}|RecipePlatform.MVC\\RecipePlatform.MVC.csproj|c:\\users\\user pc\\source\\repos\\recipesharingplatform\\recipeplatform.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9FF3A3CD-F16F-491A-962E-3866402149AA}|RecipePlatform.MVC\\RecipePlatform.MVC.csproj|solutionrelative:recipeplatform.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FF3A3CD-F16F-491A-962E-3866402149AA}|RecipePlatform.MVC\\RecipePlatform.MVC.csproj|c:\\users\\user pc\\source\\repos\\recipesharingplatform\\recipeplatform.mvc\\views\\recipe\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9FF3A3CD-F16F-491A-962E-3866402149AA}|RecipePlatform.MVC\\RecipePlatform.MVC.csproj|solutionrelative:recipeplatform.mvc\\views\\recipe\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FF3A3CD-F16F-491A-962E-3866402149AA}|RecipePlatform.MVC\\RecipePlatform.MVC.csproj|c:\\users\\user pc\\source\\repos\\recipesharingplatform\\recipeplatform.mvc\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -35,20 +63,8 @@
       "RelativeMoniker": "D:0:0:{9FF3A3CD-F16F-491A-962E-3866402149AA}|RecipePlatform.MVC\\RecipePlatform.MVC.csproj|solutionrelative:recipeplatform.mvc\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FF3A3CD-F16F-491A-962E-3866402149AA}|RecipePlatform.MVC\\RecipePlatform.MVC.csproj|c:\\users\\user pc\\source\\repos\\recipesharingplatform\\recipeplatform.mvc\\controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FF3A3CD-F16F-491A-962E-3866402149AA}|RecipePlatform.MVC\\RecipePlatform.MVC.csproj|solutionrelative:recipeplatform.mvc\\controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FF3A3CD-F16F-491A-962E-3866402149AA}|RecipePlatform.MVC\\RecipePlatform.MVC.csproj|c:\\users\\user pc\\source\\repos\\recipesharingplatform\\recipeplatform.mvc\\controllers\\ratingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FF3A3CD-F16F-491A-962E-3866402149AA}|RecipePlatform.MVC\\RecipePlatform.MVC.csproj|solutionrelative:recipeplatform.mvc\\controllers\\ratingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A18DA152-2070-48BB-9879-5F3478781E34}|RecipePlatform.Models\\RecipePlatform.Models.csproj|c:\\users\\user pc\\source\\repos\\recipesharingplatform\\recipeplatform.models\\viewmodels\\recipedetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A18DA152-2070-48BB-9879-5F3478781E34}|RecipePlatform.Models\\RecipePlatform.Models.csproj|solutionrelative:recipeplatform.models\\viewmodels\\recipedetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FF3A3CD-F16F-491A-962E-3866402149AA}|RecipePlatform.MVC\\RecipePlatform.MVC.csproj|c:\\users\\user pc\\source\\repos\\recipesharingplatform\\recipeplatform.mvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{9FF3A3CD-F16F-491A-962E-3866402149AA}|RecipePlatform.MVC\\RecipePlatform.MVC.csproj|solutionrelative:recipeplatform.mvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FF3A3CD-F16F-491A-962E-3866402149AA}|RecipePlatform.MVC\\RecipePlatform.MVC.csproj|c:\\users\\user pc\\source\\repos\\recipesharingplatform\\recipeplatform.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -199,10 +215,6 @@
       "RelativeMoniker": "D:0:0:{5FD41157-D48A-441A-B061-1413560B219D}|RecipePlatform.BLL\\RecipePlatform.BLL.csproj|solutionrelative:recipeplatform.bll\\interfaces\\iratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2090BCEB-F6C3-4453-A8BF-E196D815CF44}|RecipePlatform.API\\RecipePlatform.API.csproj|c:\\users\\user pc\\source\\repos\\recipesharingplatform\\recipeplatform.api\\controllers\\recipescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2090BCEB-F6C3-4453-A8BF-E196D815CF44}|RecipePlatform.API\\RecipePlatform.API.csproj|solutionrelative:recipeplatform.api\\controllers\\recipescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FEE8061C-1B66-4B89-BE26-E47918459DC4}|RecipePlatform.DAL\\RecipePlatform.DAL.csproj|c:\\users\\user pc\\source\\repos\\recipesharingplatform\\recipeplatform.dal\\configurations\\ratingconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEE8061C-1B66-4B89-BE26-E47918459DC4}|RecipePlatform.DAL\\RecipePlatform.DAL.csproj|solutionrelative:recipeplatform.dal\\configurations\\ratingconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -243,10 +255,6 @@
       "RelativeMoniker": "D:0:0:{9FF3A3CD-F16F-491A-962E-3866402149AA}|RecipePlatform.MVC\\RecipePlatform.MVC.csproj|solutionrelative:recipeplatform.mvc\\recipeplatform.mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2090BCEB-F6C3-4453-A8BF-E196D815CF44}|RecipePlatform.API\\RecipePlatform.API.csproj|c:\\users\\user pc\\source\\repos\\recipesharingplatform\\recipeplatform.api\\recipeplatform.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{2090BCEB-F6C3-4453-A8BF-E196D815CF44}|RecipePlatform.API\\RecipePlatform.API.csproj|solutionrelative:recipeplatform.api\\recipeplatform.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A18DA152-2070-48BB-9879-5F3478781E34}|RecipePlatform.Models\\RecipePlatform.Models.csproj|c:\\users\\user pc\\source\\repos\\recipesharingplatform\\recipeplatform.models\\recipeplatform.models.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{A18DA152-2070-48BB-9879-5F3478781E34}|RecipePlatform.Models\\RecipePlatform.Models.csproj|solutionrelative:recipeplatform.models\\recipeplatform.models.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -265,10 +273,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FEE8061C-1B66-4B89-BE26-E47918459DC4}|RecipePlatform.DAL\\RecipePlatform.DAL.csproj|c:\\users\\user pc\\source\\repos\\recipesharingplatform\\recipeplatform.dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEE8061C-1B66-4B89-BE26-E47918459DC4}|RecipePlatform.DAL\\RecipePlatform.DAL.csproj|solutionrelative:recipeplatform.dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEE8061C-1B66-4B89-BE26-E47918459DC4}|RecipePlatform.DAL\\RecipePlatform.DAL.csproj|c:\\users\\user pc\\source\\repos\\recipesharingplatform\\recipeplatform.dal\\migrations\\20250626174943_secondmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEE8061C-1B66-4B89-BE26-E47918459DC4}|RecipePlatform.DAL\\RecipePlatform.DAL.csproj|solutionrelative:recipeplatform.dal\\migrations\\20250626174943_secondmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -286,44 +290,110 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Program.cs",
-              "RelativeDocumentMoniker": "RecipePlatform.MVC\\Program.cs",
-              "ToolTip": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Program.cs",
-              "RelativeToolTip": "RecipePlatform.MVC\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.API\\Program.cs",
+              "RelativeDocumentMoniker": "RecipePlatform.API\\Program.cs",
+              "ToolTip": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.API\\Program.cs*",
+              "RelativeToolTip": "RecipePlatform.API\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T09:00:27.858Z"
+              "WhenOpened": "2025-06-29T11:40:22.337Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Views\\Recipe\\Index.cshtml",
-              "RelativeDocumentMoniker": "RecipePlatform.MVC\\Views\\Recipe\\Index.cshtml",
-              "ToolTip": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Views\\Recipe\\Index.cshtml",
-              "RelativeToolTip": "RecipePlatform.MVC\\Views\\Recipe\\Index.cshtml",
-              "ViewState": "AgIAAIkAAAAAAAAAAAAAAIwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-25T07:47:15.535Z"
+              "DocumentIndex": 2,
+              "Title": "SearchController.cs",
+              "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.API\\Controllers\\SearchController.cs",
+              "RelativeDocumentMoniker": "RecipePlatform.API\\Controllers\\SearchController.cs",
+              "ToolTip": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.API\\Controllers\\SearchController.cs*",
+              "RelativeToolTip": "RecipePlatform.API\\Controllers\\SearchController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T11:39:12.47Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "RecipePlatform.MVC\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Views\\Shared\\_Layout.cshtml*",
-              "RelativeToolTip": "RecipePlatform.MVC\\Views\\Shared\\_Layout.cshtml*",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAGIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-22T19:43:39.169Z",
+              "Title": "RecipePlatform.API.csproj",
+              "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.API\\RecipePlatform.API.csproj",
+              "RelativeDocumentMoniker": "RecipePlatform.API\\RecipePlatform.API.csproj",
+              "ToolTip": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.API\\RecipePlatform.API.csproj",
+              "RelativeToolTip": "RecipePlatform.API\\RecipePlatform.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-23T09:38:04.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.API\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "RecipePlatform.API\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.API\\Controllers\\UsersController.cs*",
+              "RelativeToolTip": "RecipePlatform.API\\Controllers\\UsersController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T11:37:11.696Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "RatingsController.cs",
+              "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.API\\Controllers\\RatingsController.cs",
+              "RelativeDocumentMoniker": "RecipePlatform.API\\Controllers\\RatingsController.cs",
+              "ToolTip": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.API\\Controllers\\RatingsController.cs*",
+              "RelativeToolTip": "RecipePlatform.API\\Controllers\\RatingsController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T11:36:22.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.API\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "RecipePlatform.API\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.API\\Controllers\\CategoriesController.cs*",
+              "RelativeToolTip": "RecipePlatform.API\\Controllers\\CategoriesController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T11:35:27.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "RecipePlatform.MVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "RecipePlatform.MVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-23T05:29:56.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RecipesController.cs",
+              "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.API\\Controllers\\RecipesController.cs",
+              "RelativeDocumentMoniker": "RecipePlatform.API\\Controllers\\RecipesController.cs",
+              "ToolTip": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.API\\Controllers\\RecipesController.cs*",
+              "RelativeToolTip": "RecipePlatform.API\\Controllers\\RecipesController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T10:01:27.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "home.css",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\wwwroot\\css\\home.css",
               "RelativeDocumentMoniker": "RecipePlatform.MVC\\wwwroot\\css\\home.css",
@@ -335,19 +405,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "RecipePlatform.MVC\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "RecipePlatform.MVC\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAABUAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-23T05:29:56.779Z"
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Program.cs",
+              "RelativeDocumentMoniker": "RecipePlatform.MVC\\Program.cs",
+              "ToolTip": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Program.cs",
+              "RelativeToolTip": "RecipePlatform.MVC\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T09:00:27.858Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "RecipePlatform.MVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "RecipePlatform.MVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T18:29:32.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Recipe.cs",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.Models\\Models\\Recipe.cs",
               "RelativeDocumentMoniker": "RecipePlatform.Models\\Models\\Recipe.cs",
@@ -359,7 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "RecipePlatform.MVC\\Views\\Account\\Register.cshtml",
@@ -371,7 +453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "RecipePlatform.MVC\\Views\\Account\\Login.cshtml",
@@ -383,43 +465,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
-              "Title": "20250626174943_SecondMigration.cs",
-              "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.DAL\\Migrations\\20250626174943_SecondMigration.cs",
-              "RelativeDocumentMoniker": "RecipePlatform.DAL\\Migrations\\20250626174943_SecondMigration.cs",
-              "ToolTip": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.DAL\\Migrations\\20250626174943_SecondMigration.cs",
-              "RelativeToolTip": "RecipePlatform.DAL\\Migrations\\20250626174943_SecondMigration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T17:49:43.354Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "RecipeController.cs",
-              "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Controllers\\RecipeController.cs",
-              "RelativeDocumentMoniker": "RecipePlatform.MVC\\Controllers\\RecipeController.cs",
-              "ToolTip": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Controllers\\RecipeController.cs",
-              "RelativeToolTip": "RecipePlatform.MVC\\Controllers\\RecipeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkBAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T08:19:12.376Z"
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Views\\Recipe\\Index.cshtml",
+              "RelativeDocumentMoniker": "RecipePlatform.MVC\\Views\\Recipe\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Views\\Recipe\\Index.cshtml",
+              "RelativeToolTip": "RecipePlatform.MVC\\Views\\Recipe\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-25T07:47:15.535Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RatingController.cs",
-              "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Controllers\\RatingController.cs",
-              "RelativeDocumentMoniker": "RecipePlatform.MVC\\Controllers\\RatingController.cs",
-              "ToolTip": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Controllers\\RatingController.cs",
-              "RelativeToolTip": "RecipePlatform.MVC\\Controllers\\RatingController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAM4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T07:06:29.084Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "RecipeDetailsViewModel.cs",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.Models\\ViewModels\\RecipeDetailsViewModel.cs",
               "RelativeDocumentMoniker": "RecipePlatform.Models\\ViewModels\\RecipeDetailsViewModel.cs",
@@ -431,19 +489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "RecipePlatform.MVC\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "RecipePlatform.MVC\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ4DAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-06-22T19:48:18.067Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "RecipePlatform.MVC\\Controllers\\HomeController.cs",
@@ -455,7 +501,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "SearchRecipeViewModel.cs",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.Models\\ViewModels\\SearchRecipeViewModel.cs",
               "RelativeDocumentMoniker": "RecipePlatform.Models\\ViewModels\\SearchRecipeViewModel.cs",
@@ -467,7 +513,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "RegisterViewModel.cs",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.Models\\ViewModels\\RegisterViewModel.cs",
               "RelativeDocumentMoniker": "RecipePlatform.Models\\ViewModels\\RegisterViewModel.cs",
@@ -479,7 +525,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.Models\\ViewModels\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "RecipePlatform.Models\\ViewModels\\LoginViewModel.cs",
@@ -491,7 +537,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "CreateRecipeViewModel.cs",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.Models\\ViewModels\\CreateRecipeViewModel.cs",
               "RelativeDocumentMoniker": "RecipePlatform.Models\\ViewModels\\CreateRecipeViewModel.cs",
@@ -503,7 +549,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "RecipePlatform.MVC\\Controllers\\AdminController.cs",
@@ -515,7 +561,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "RecipePlatform.MVC\\Controllers\\AccountController.cs",
@@ -527,7 +573,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "RatingService.cs",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.BLL\\Services\\RatingService.cs",
               "RelativeDocumentMoniker": "RecipePlatform.BLL\\Services\\RatingService.cs",
@@ -539,7 +585,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "RecipeService.cs",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.BLL\\Services\\RecipeService.cs",
               "RelativeDocumentMoniker": "RecipePlatform.BLL\\Services\\RecipeService.cs",
@@ -551,7 +597,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "AdminService.cs",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.BLL\\Services\\AdminService.cs",
               "RelativeDocumentMoniker": "RecipePlatform.BLL\\Services\\AdminService.cs",
@@ -563,7 +609,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.DAL\\Context\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "RecipePlatform.DAL\\Context\\ApplicationDbContext.cs",
@@ -575,7 +621,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.Models\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "RecipePlatform.Models\\Models\\ApplicationUser.cs",
@@ -587,7 +633,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "RecipePlatform.MVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -599,7 +645,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "EditUser.cshtml",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Views\\Admin\\EditUser.cshtml",
               "RelativeDocumentMoniker": "RecipePlatform.MVC\\Views\\Admin\\EditUser.cshtml",
@@ -611,7 +657,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 32,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Views\\Recipe\\Edit.cshtml",
               "RelativeDocumentMoniker": "RecipePlatform.MVC\\Views\\Recipe\\Edit.cshtml",
@@ -623,7 +669,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
               "Title": "Recipes.cshtml",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Views\\Admin\\Recipes.cshtml",
               "RelativeDocumentMoniker": "RecipePlatform.MVC\\Views\\Admin\\Recipes.cshtml",
@@ -635,7 +681,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "DeleteRecipe.cshtml",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Views\\Admin\\DeleteRecipe.cshtml",
               "RelativeDocumentMoniker": "RecipePlatform.MVC\\Views\\Admin\\DeleteRecipe.cshtml",
@@ -647,7 +693,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 34,
               "Title": "IRecipeService.cs",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.BLL\\Interfaces\\IRecipeService.cs",
               "RelativeDocumentMoniker": "RecipePlatform.BLL\\Interfaces\\IRecipeService.cs",
@@ -659,7 +705,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 33,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Views\\Recipe\\Details.cshtml",
               "RelativeDocumentMoniker": "RecipePlatform.MVC\\Views\\Recipe\\Details.cshtml",
@@ -671,7 +717,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 35,
               "Title": "DeleteUser.cshtml",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Views\\Admin\\DeleteUser.cshtml",
               "RelativeDocumentMoniker": "RecipePlatform.MVC\\Views\\Admin\\DeleteUser.cshtml",
@@ -683,7 +729,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 36,
               "Title": "DeleteRole.cshtml",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Views\\Admin\\DeleteRole.cshtml",
               "RelativeDocumentMoniker": "RecipePlatform.MVC\\Views\\Admin\\DeleteRole.cshtml",
@@ -695,7 +741,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 37,
               "Title": "DeleteCategory.cshtml",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Views\\Admin\\DeleteCategory.cshtml",
               "RelativeDocumentMoniker": "RecipePlatform.MVC\\Views\\Admin\\DeleteCategory.cshtml",
@@ -707,7 +753,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 38,
               "Title": "CreateRole.cshtml",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Views\\Admin\\CreateRole.cshtml",
               "RelativeDocumentMoniker": "RecipePlatform.MVC\\Views\\Admin\\CreateRole.cshtml",
@@ -719,7 +765,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 39,
               "Title": "CreateCategory.cshtml",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Views\\Admin\\CreateCategory.cshtml",
               "RelativeDocumentMoniker": "RecipePlatform.MVC\\Views\\Admin\\CreateCategory.cshtml",
@@ -731,7 +777,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 40,
               "Title": "Categories.cshtml",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Views\\Admin\\Categories.cshtml",
               "RelativeDocumentMoniker": "RecipePlatform.MVC\\Views\\Admin\\Categories.cshtml",
@@ -743,7 +789,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 41,
               "Title": "EditCategory.cshtml",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Views\\Admin\\EditCategory.cshtml",
               "RelativeDocumentMoniker": "RecipePlatform.MVC\\Views\\Admin\\EditCategory.cshtml",
@@ -755,7 +801,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 42,
               "Title": "AccessDenied.cshtml",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Views\\Account\\AccessDenied.cshtml",
               "RelativeDocumentMoniker": "RecipePlatform.MVC\\Views\\Account\\AccessDenied.cshtml",
@@ -767,7 +813,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 43,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Views\\Rating\\Edit.cshtml",
               "RelativeDocumentMoniker": "RecipePlatform.MVC\\Views\\Rating\\Edit.cshtml",
@@ -779,7 +825,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 46,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Views\\Rating\\Delete.cshtml",
               "RelativeDocumentMoniker": "RecipePlatform.MVC\\Views\\Rating\\Delete.cshtml",
@@ -791,7 +837,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 45,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Views\\Rating\\Index.cshtml",
               "RelativeDocumentMoniker": "RecipePlatform.MVC\\Views\\Rating\\Index.cshtml",
@@ -803,7 +849,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 44,
               "Title": "DifficultyLevel.cs",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.Models\\Models\\Enums\\DifficultyLevel.cs",
               "RelativeDocumentMoniker": "RecipePlatform.Models\\Models\\Enums\\DifficultyLevel.cs",
@@ -815,7 +861,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 47,
               "Title": "Roles.cshtml",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Views\\Admin\\Roles.cshtml",
               "RelativeDocumentMoniker": "RecipePlatform.MVC\\Views\\Admin\\Roles.cshtml",
@@ -827,7 +873,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 48,
               "Title": "UserDetails.cshtml",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Views\\Admin\\UserDetails.cshtml",
               "RelativeDocumentMoniker": "RecipePlatform.MVC\\Views\\Admin\\UserDetails.cshtml",
@@ -839,7 +885,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 49,
               "Title": "Users.cshtml",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Views\\Admin\\Users.cshtml",
               "RelativeDocumentMoniker": "RecipePlatform.MVC\\Views\\Admin\\Users.cshtml",
@@ -851,7 +897,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 50,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Views\\Rating\\Create.cshtml",
               "RelativeDocumentMoniker": "RecipePlatform.MVC\\Views\\Rating\\Create.cshtml",
@@ -863,7 +909,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 51,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\Views\\Rating\\Details.cshtml",
               "RelativeDocumentMoniker": "RecipePlatform.MVC\\Views\\Rating\\Details.cshtml",
@@ -875,19 +921,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "RecipesController.cs",
-              "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.API\\Controllers\\RecipesController.cs",
-              "RelativeDocumentMoniker": "RecipePlatform.API\\Controllers\\RecipesController.cs",
-              "ToolTip": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.API\\Controllers\\RecipesController.cs",
-              "RelativeToolTip": "RecipePlatform.API\\Controllers\\RecipesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T10:01:27.112Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 52,
               "Title": "IRatingService.cs",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.BLL\\Interfaces\\IRatingService.cs",
               "RelativeDocumentMoniker": "RecipePlatform.BLL\\Interfaces\\IRatingService.cs",
@@ -899,7 +933,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 53,
               "Title": "RatingConfig.cs",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.DAL\\Configurations\\RatingConfig.cs",
               "RelativeDocumentMoniker": "RecipePlatform.DAL\\Configurations\\RatingConfig.cs",
@@ -911,7 +945,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 54,
               "Title": "GenaricRepository.cs",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.BLL\\Repositories\\GenaricRepository.cs",
               "RelativeDocumentMoniker": "RecipePlatform.BLL\\Repositories\\GenaricRepository.cs",
@@ -923,7 +957,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 55,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\appsettings.json",
               "RelativeDocumentMoniker": "RecipePlatform.MVC\\appsettings.json",
@@ -935,7 +969,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 56,
               "Title": "IGenaricRepository.cs",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.BLL\\Interfaces\\IGenaricRepository.cs",
               "RelativeDocumentMoniker": "RecipePlatform.BLL\\Interfaces\\IGenaricRepository.cs",
@@ -947,7 +981,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 57,
               "Title": "Rating.cs",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.Models\\Models\\Rating.cs",
               "RelativeDocumentMoniker": "RecipePlatform.Models\\Models\\Rating.cs",
@@ -959,7 +993,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 58,
               "Title": "RecipePlatform.BLL.csproj",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.BLL\\RecipePlatform.BLL.csproj",
               "RelativeDocumentMoniker": "RecipePlatform.BLL\\RecipePlatform.BLL.csproj",
@@ -971,7 +1005,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 59,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.Models\\Models\\BaseEntity.cs",
               "RelativeDocumentMoniker": "RecipePlatform.Models\\Models\\BaseEntity.cs",
@@ -983,7 +1017,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 61,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.Models\\Models\\Category.cs",
               "RelativeDocumentMoniker": "RecipePlatform.Models\\Models\\Category.cs",
@@ -995,7 +1029,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 60,
               "Title": "CategoryConfig.cs",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.DAL\\Configurations\\CategoryConfig.cs",
               "RelativeDocumentMoniker": "RecipePlatform.DAL\\Configurations\\CategoryConfig.cs",
@@ -1007,7 +1041,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 62,
               "Title": "RecipePlatform.MVC.csproj",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.MVC\\RecipePlatform.MVC.csproj",
               "RelativeDocumentMoniker": "RecipePlatform.MVC\\RecipePlatform.MVC.csproj",
@@ -1019,19 +1053,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "RecipePlatform.API.csproj",
-              "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.API\\RecipePlatform.API.csproj",
-              "RelativeDocumentMoniker": "RecipePlatform.API\\RecipePlatform.API.csproj",
-              "ToolTip": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.API\\RecipePlatform.API.csproj",
-              "RelativeToolTip": "RecipePlatform.API\\RecipePlatform.API.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-23T09:38:04.971Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 64,
               "Title": "RecipePlatform.DAL.csproj",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.DAL\\RecipePlatform.DAL.csproj",
               "RelativeDocumentMoniker": "RecipePlatform.DAL\\RecipePlatform.DAL.csproj",
@@ -1043,7 +1065,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 63,
               "Title": "RecipePlatform.Models.csproj",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.Models\\RecipePlatform.Models.csproj",
               "RelativeDocumentMoniker": "RecipePlatform.Models\\RecipePlatform.Models.csproj",
@@ -1055,7 +1077,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 65,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.BLL\\Class1.cs",
               "RelativeDocumentMoniker": "RecipePlatform.BLL\\Class1.cs",
@@ -1067,7 +1089,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 66,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.Models\\Class1.cs",
               "RelativeDocumentMoniker": "RecipePlatform.Models\\Class1.cs",
@@ -1079,7 +1101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 67,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\user pc\\source\\repos\\RecipeSharingPlatform\\RecipePlatform.DAL\\Class1.cs",
               "RelativeDocumentMoniker": "RecipePlatform.DAL\\Class1.cs",
